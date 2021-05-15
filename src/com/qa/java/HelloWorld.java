@@ -22,15 +22,7 @@ public class HelloWorld {
 //			System.out.println(myfloat);
 	
 
-	int result = add(10, 20);
-	int product = mult(34, 89);
-	int diffr = sub(7, 9);
-	double dind = div(9, 4);
-	
-	System.out.println(result);
-	System.out.println(product);
-	System.out.println(diffr);
-	System.out.println(dind);
+
 
 }
 

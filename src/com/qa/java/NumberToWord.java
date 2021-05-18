@@ -90,7 +90,7 @@ public class NumberToWord {
 	    
 	    public static void main(String[] args) {
 	        NumberToWord obj = new NumberToWord();
-	        System.out.println("*** " + obj.convert(1234));
-	        System.out.println("*** " + obj.convert(-55));
+	        System.out.println("*** " + obj.convert(124000));
+	        System.out.println("*** " + obj.convert(-68));
 	    }
 }

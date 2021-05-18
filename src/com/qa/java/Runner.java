@@ -4,14 +4,16 @@ public class Runner {
 
 	public static void main(String[] args) {
 		
-		//Calculator class
+System.out.println(UniqueSum.uniquesum(1, 2, 3));
+System.out.println(UniqueSum.uniquesum(3, 3, 3));
+System.out.println(UniqueSum.uniquesum(1, 1, 2));
 		
 	
       
  //Result class
  
-//Results.displayOverallPassMark();
-//System.out.println(FlowCharts.getAnumber(7, 9, false)); 
+Results.displayOverallPassMark();
+System.out.println(FlowCharts.getAnumber(7, 9, false)); 
 
  
 		
@@ -25,6 +27,7 @@ System.out.println(BlackJack.blackjack(21, 21));
 
 
 System.out.println(Taxes.getNetIncome(60000)); 
+System.out.println(Taxes.getTax(60000));
 
 
 //Calculator CLASS

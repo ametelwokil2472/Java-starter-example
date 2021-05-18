@@ -1,6 +1,8 @@
 package com.qa.java.StringDemo;
 
 public class StringCount {
+	
+//	String in a vertical fashion 
 	public static void toVerticalWords(String str) {
 	    String[] words = str.split("\\s+");
 	    boolean remained = true;
@@ -15,6 +17,7 @@ public class StringCount {
 	    }
 	}
 	
+//	found in the message
 	public static boolean toMessage(String message, String word) {
 		return  message.contains(word);
 	}

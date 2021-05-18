@@ -3,24 +3,44 @@ package com.qa.java;
 public class Runner {
 
 	public static void main(String[] args) {
-	int result = Calculator.add(6, 9);
- System.out.println(result);
- 
- 
- // HELLOWORLD CLASS
-   int sum =  HelloWorld.add(10, 20);
-   System.out.println(sum);
-   
-	int product = HelloWorld. mult(34, 89);
-	System.out.println(product);
+		
+		//Calculator class
+		
 	
-	int diffr = HelloWorld.sub(7, 9);
-	System.out.println(diffr);
-	
-	double dind = HelloWorld.div(9, 4);	
-	System.out.println(dind);
+      
+ //Result class
+ 
+//Results.displayOverallPassMark();
+//System.out.println(FlowCharts.getAnumber(7, 9, false)); 
 
  
+		
+System.out.println(BlackJack.blackjack(21, 21));	
+		
+
+//FlowCharts.flowchart(6000);
+
+//Loop.Numbers();
+
+
+
+System.out.println(Taxes.getNetIncome(60000)); 
+
+
+//Calculator CLASS
+//     int result = Calculator.add(6, 9);
+//     System.out.println(result);
+//   int sum =  Calculator.add(10, 20);
+//   System.out.println(sum);
+//   
+//	int product = Calculator. mult(34, 89);
+//	System.out.println(product);
+//	
+//	int diffr = Calculator.sub(7, 9);
+//	System.out.println(diffr);
+//	
+//       Calculator.div(1, 4);	
+	 
 	}
 
 }

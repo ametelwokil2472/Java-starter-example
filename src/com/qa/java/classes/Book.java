@@ -15,6 +15,6 @@ public class Book {
 			 } 
 		 
 		 public String read() {
-			 return this.title + " has " +this.noOfPages + "its type is" + this.type;
+			 return this.title + " has " +this.noOfPages + " its type is " + this.type;
 			 }
 }

@@ -5,8 +5,10 @@ public class Runner {
 		// TODO Auto-generated method stub
       Book mame = new Book("The secrec", 200, "ScFi");;
     		  		  
-      System.out.print(mame.read());
-    		  
+      System.out.println(mame.read());
+    	
+     Person Amet = new Person("Amet", 38, "Female");
+     System.out.println(Amet.gender);
 	}
 
 }

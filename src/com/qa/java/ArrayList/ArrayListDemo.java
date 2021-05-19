@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArrayListDemo {
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		ArrayList<String> animal = new ArrayList<String>();
 		animal.add("cow");
@@ -15,7 +16,7 @@ public class ArrayListDemo {
 		animal.add("fish");
 		animal.add("owl");
 		animal.add("birds");
-		// System.out.println(animal);
+		System.out.println("First ArrayList is: " + animal);
 
 		// iterate through the ArrayList and print out each element (with both normal
 		// and enhanced for-loops)
@@ -28,6 +29,7 @@ public class ArrayListDemo {
 		}
 
 		// get() specific elements
+		
 		System.out.println(animal.get(4));
 
 		// set() different elements
@@ -44,14 +46,17 @@ public class ArrayListDemo {
 
 		for (String i : animal) {
 			System.out.println(i);
+		}
 //try using the reverse(), swap() and clone() methods from the Collections class
 			Collections.reverse(animal);
 			System.out.println(animal);
 			
-			@SuppressWarnings("unchecked")
-			ArrayList<String> arrayListClone = (ArrayList<String>) animal.clone();
+			ArrayList<String> arrayListClone = new ArrayList<String>(); 
+			arrayListClone = (ArrayList<String>) animal.clone();
+			
 	         
-	        System.out.println(arrayListClone);
+	        System.out.println("Second ArrayList is: " + arrayListClone);
 		}
 	}
-}
+
+
